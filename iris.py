@@ -79,4 +79,6 @@ plt.title('Confusion Matrix for Random Forest')
 plt.xlabel('Predicted')
 plt.ylabel('True')
 plt.show()
+from joblib import dump, load
+dump('titanic_rdf_model_save.joblib')
 
